@@ -17,6 +17,10 @@
   width: 300px;
 }
 
+.footer__right * .MuiSlider-root {
+  columns: green;
+}
+
 .footer__albumLogo {
   height: 60px;
   width: 60px;
@@ -44,6 +48,12 @@
   align-items: center;
   justify-content: space-between;
   max-width: 300px;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
 }
 
 .footer__right {

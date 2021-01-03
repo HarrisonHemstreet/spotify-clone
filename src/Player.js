@@ -10,7 +10,7 @@ function Player() {
             {/* sidebar/body */}
             <div className='player__sidebar'>
                 <Sidebar />
-                <Body />
+                <Body spotify={spotify}/>
             </div>
             
             {/* footer */}
