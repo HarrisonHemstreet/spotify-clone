@@ -11,6 +11,14 @@
 
 .footer__left {
   flex: 0.3;
+  display: flex;
+}
+
+.footer__albumLogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
 }
 
 .footer__center {
