@@ -4,11 +4,11 @@ import Sidebar from './Sidebar'
 import Body from './Body';
 import Footer from './Footer';
 
-function Player() {
+function Player({spotify}) {
     return (
         <div className='player'>
             {/* sidebar/body */}
-            <div className='player__sidebar'>
+            <div className='player__body'>
                 <Sidebar />
                 <Body spotify={spotify}/>
             </div>
